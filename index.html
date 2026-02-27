@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppMint — Robotics & AI Technology</title>
+    <meta name="description"
+        content="AppMint is a robotics and AI-driven technology company building intelligent drone systems, IoT solutions, and autonomous software platforms." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav" id="bottom-nav">
+        <div class="nav-inner">
+            <a href="#home" class="nav-link active" id="nav-home">Home</a>
+            <a href="#about" class="nav-link" id="nav-about">About</a>
+            <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+            <a href="#services" class="nav-link" id="nav-services">Services</a>
+            <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Day/Night Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+        </svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+    </button>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="section hero-section" id="home">
+        <div class="stars" id="stars"></div>
+        <div class="hero-content">
+            <div class="available-badge">
+                <span class="badge-dot"></span>
+                OPEN FOR PROJECTS
+            </div>
+            <h1 class="hero-title">
+                <span class="name-first">Hello, we're </span><span class="gradient-purple">AppMint.</span>
+            </h1>
+            <p class="hero-subtitle">Robotics &amp; AI Technology Company</p>
+            <p class="hero-desc">
+                Building intelligent <strong>drone systems</strong>, <strong>IoT solutions</strong>,
+                and autonomous software platforms that transform complex engineering challenges into
+                reliable, production-ready systems.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary" id="btn-view-projects">
+                    <span>→</span> View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary" id="btn-contact">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                        <path d="m22 7-10 7L2 7" />
+                    </svg>
+                    Contact Us
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line">
+                    <div class="scroll-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section about-section" id="about">
+        <div class="about-inner">
+            <div class="about-left">
+                <p class="section-eyebrow">WHO WE ARE</p>
+                <h2 class="section-title">About <span class="name-last">AppMint</span></h2>
+                <p class="about-desc">
+                    AppMint specializes in autonomous drone systems, computer vision, IoT automation,
+                    and custom software platforms.
+                </p>
+                <p class="about-desc">
+                    We design and develop complete end-to-end solutions — from embedded systems and
+                    firmware customization to AI-powered detection systems, secure flight control
+                    software, and scalable cloud-connected applications.
+                </p>
+                <p class="about-desc">
+                    Our expertise includes <strong>PX4</strong>, <strong>ArduPilot</strong>,
+                    <strong>MAVLink</strong>, <strong>NVIDIA Jetson</strong>,
+                    <strong>Raspberry Pi</strong>, real-time AI inference, swarm coordination,
+                    firmware security, and custom Ground Control Station (GCS) development.
+                </p>
+                <p class="about-tagline">We transform complex engineering challenges into reliable, production-ready
+                    systems.</p>
+            </div>
+
+            <div class="about-right">
+                <!-- Stats -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">3<span class="stat-plus">+</span></div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">20<span class="stat-plus">+</span></div>
+                        <div class="stat-label">Complex Projects Delivered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8<span class="stat-plus">+</span></div>
+                        <div class="stat-label">Core Technologies Mastered</div>
+                    </div>
+                </div>
+
+                <!-- Tech Divider + List -->
+                <div class="tech-divider"></div>
+                <ul class="tech-list">
+                    <li>PX4</li>
+                    <li>ArduPilot</li>
+                    <li>MAVLink</li>
+                    <li>NVIDIA Jetson</li>
+                    <li>Raspberry Pi</li>
+                    <li>YOLO</li>
+                    <li>ROS2</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>RTSP</li>
+                    <li>IoT</li>
+                    <li>Swarm AI</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section projects-section" id="projects">
+        <div class="projects-header">
+            <div>
+                <p class="section-eyebrow">WHAT WE BUILD</p>
+                <h2 class="section-title">Featured <span class="gradient-purple">Projects</span></h2>
+            </div>
+            <p class="projects-intro-text">We build intelligent systems that combine robotics, AI,<br>embedded
+                engineering, and scalable software.</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card" data-project="qr-landing" id="card-qr" tabindex="0" role="button"
+                aria-label="Open QR Landing System case study">
+                <div class="card-image">
+                    <div class="card-img-bg qr-bg"></div>
+                    <span class="card-tag">Drone Systems</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">QR-Based Precision Drone Landing</h3>
+                    <p class="card-desc">High-accuracy QR marker detection and autonomous landing system integrated with
+                        PX4/ArduPilot for precise outdoor drone landings.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">PX4</span>
+                        <span class="tech-tag pink">ArduPilot</span>
+                        <span class="tech-tag green">OpenCV</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="swarm" id="card-swarm" tabindex="0" role="button"
+                aria-label="Open Swarm Coordination case study">
+                <div class="card-image">
+                    <div class="card-img-bg swarm-bg"></div>
+                    <span class="card-tag">Swarm AI</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Autonomous Drone Swarm Platform</h3>
+                    <p class="card-desc">Multi-drone formation control system supporting synchronized takeoff, landing,
+                        and real-time mission coordination.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">MAVLink</span>
+                        <span class="tech-tag pink">ROS2</span>
+                        <span class="tech-tag green">Python</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="yolo" id="card-yolo" tabindex="0" role="button"
+                aria-label="Open Object Detection case study">
+                <div class="card-image">
+                    <div class="card-img-bg yolo-bg"></div>
+                    <span class="card-tag">AI Vision</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">AI Real-Time Object Detection</h3>
+                    <p class="card-desc">YOLO-powered detection system optimized for NVIDIA Jetson with RTSP stream
+                        support for surveillance and drone vision.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">YOLO</span>
+                        <span class="tech-tag pink">Jetson</span>
+                        <span class="tech-tag green">RTSP</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="gcs" id="card-gcs" tabindex="0" role="button"
+                aria-label="Open GCS case study">
+                <div class="card-image">
+                    <div class="card-img-bg gcs-bg"></div>
+                    <span class="card-tag">GCS Software</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Custom Ground Control Station</h3>
+                    <p class="card-desc">Enterprise-grade GCS application with telemetry, mission planning, live video
+                        streaming, and role-based UI.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">MAVLink</span>
+                        <span class="tech-tag pink">React</span>
+                        <span class="tech-tag green">WebSockets</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="firmware" id="card-firmware" tabindex="0" role="button"
+                aria-label="Open Firmware Security case study">
+                <div class="card-image">
+                    <div class="card-img-bg firmware-bg"></div>
+                    <span class="card-tag">Firmware Security</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Drone Firmware Security & Protection</h3>
+                    <p class="card-desc">Secure boot, firmware integrity validation, encrypted parameter handling, and
+                        IP protection for UAV companies.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">C++</span>
+                        <span class="tech-tag pink">PX4</span>
+                        <span class="tech-tag green">Encryption</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="iot" id="card-iot" tabindex="0" role="button"
+                aria-label="Open IoT System case study">
+                <div class="card-image">
+                    <div class="card-img-bg iot-bg"></div>
+                    <span class="card-tag">IoT</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">IoT Monitoring & Automation System</h3>
+                    <p class="card-desc">Edge-based sensor monitoring with cloud dashboards, automation logic, and
+                        real-time alerts.</p>
+                    <div class="card-tags">
+                        <span class="tech-tag cyan">Raspberry Pi</span>
+                        <span class="tech-tag pink">MQTT</span>
+                        <span class="tech-tag green">Cloud</span>
+                    </div>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="section services-section" id="services">
+        <p class="section-eyebrow">WHAT WE OFFER</p>
+        <h2 class="section-title" style="margin-bottom:80px;">Our <span class="name-last">Services</span></h2>
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon drone-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M12 2L8 6H4l2 4-4 2 4 2-2 4h4l4 4 4-4h4l-2-4 4-2-4-2 2-4h-4z" />
+                        <circle cx="12" cy="12" r="2" />
+                    </svg>
+                </div>
+                <h3 class="service-title">Drone System Development</h3>
+                <p class="service-desc">Custom UAV software, PX4/ArduPilot integration, autonomous navigation, and swarm
+                    systems.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon ai-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <rect x="2" y="2" width="20" height="20" rx="3" />
+                        <path d="M9 9h6M9 12h6M9 15h4" />
+                        <circle cx="7" cy="9" r="1" />
+                        <circle cx="7" cy="12" r="1" />
+                        <circle cx="7" cy="15" r="1" />
+                    </svg>
+                </div>
+                <h3 class="service-title">AI &amp; Computer Vision</h3>
+                <p class="service-desc">Real-time object detection, edge AI deployment, and video analytics systems.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon sec-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </div>
+                <h3 class="service-title">Drone Firmware Security</h3>
+                <p class="service-desc">Secure firmware architecture, encryption, and tamper prevention systems.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon dev-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <polyline points="16 18 22 12 16 6" />
+                        <polyline points="8 6 2 12 8 18" />
+                    </svg>
+                </div>
+                <h3 class="service-title">Full-Stack Application Development</h3>
+                <p class="service-desc">Scalable backend systems, REST APIs, dashboards, and cloud deployment.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon iot-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                    </svg>
+                </div>
+                <h3 class="service-title">IoT &amp; Embedded Systems</h3>
+                <p class="service-desc">Sensor integration, edge processing, automation logic, and monitoring platforms.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon debug-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </div>
+                <h3 class="service-title">System Debugging &amp; Optimization</h3>
+                <p class="service-desc">Jetson, Linux, embedded systems, backend troubleshooting, and performance
+                    tuning.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact-section" id="contact">
+        <div class="contact-top">
+            <div class="section-eyebrow-line">
+                <span class="eyebrow-line-bar"></span>
+                <span class="section-eyebrow pink">CONTACT</span>
+            </div>
+            <h2 class="contact-title">Let's <span class="gradient-blue-purple">Work Together</span></h2>
+            <p class="contact-subtitle">Let's build intelligent systems together. AppMint is available for drone
+                development, AI vision projects, IoT automation, custom GCS solutions, and enterprise-grade software
+                systems.</p>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-info">
+                <div class="get-in-touch-label">GET IN TOUCH</div>
+                <h3 class="contact-build">Let's build something <span class="gradient-green">remarkable</span></h3>
+                <p class="contact-build-desc">
+                    Whether you have a drone project, AI vision challenge, IoT system, or a custom software need — our
+                    team is ready. We typically respond within 24 hours.
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 7-10 7L2 7" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="detail-label">EMAIL</div>
+                            <div class="detail-value">hello@appmint.dev</div>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="detail-label">LOCATION</div>
+                            <div class="detail-value">Govindpuri, Delhi, India</div>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="detail-label">AVAILABILITY</div>
+                            <div class="detail-value">Open to Projects · 2026</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="find-me-label">FIND US ON</div>
+                <div class="social-grid">
+                    <a href="#" class="social-item" id="social-github">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                        </svg>
+                        <div>
+                            <div class="social-name">GitHub</div>
+                            <div class="social-handle">@appmint</div>
+                        </div>
+                    </a>
+                    <a href="#" class="social-item" id="social-linkedin">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                        <div>
+                            <div class="social-name">LinkedIn</div>
+                            <div class="social-handle">AppMint Technologies</div>
+                        </div>
+                    </a>
+                    <a href="#" class="social-item" id="social-twitter">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                        <div>
+                            <div class="social-name">Twitter / X</div>
+                            <div class="social-handle">@appmint_tech</div>
+                        </div>
+                    </a>
+                    <a href="#home" class="social-item" id="social-website">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path
+                                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                        <div>
+                            <div class="social-name">Website</div>
+                            <div class="social-handle">appmint.dev</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <div class="form-card">
+                    <h3 class="form-title">Send a Message</h3>
+                    <p class="form-subtitle">Tell us about your project and we'll get back to you within 24 hours.</p>
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">NAME <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required
+                                    autocomplete="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="you@company.com" required
+                                    autocomplete="email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">PROJECT TYPE</label>
+                            <select id="subject" name="subject">
+                                <option value="" disabled selected>Select a topic...</option>
+                                <option value="drone">Drone System Development</option>
+                                <option value="ai">AI &amp; Computer Vision</option>
+                                <option value="firmware">Firmware Security</option>
+                                <option value="fullstack">Full-Stack Development</option>
+                                <option value="iot">IoT &amp; Embedded Systems</option>
+                                <option value="other">Other / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="4" maxlength="1000"
+                                placeholder="Tell us about your project, timeline, and what you're hoping to achieve..."
+                                required></textarea>
+                            <div class="char-count"><span id="char-count">0</span> / 1000</div>
+                        </div>
+                        <button type="submit" class="btn-send" id="btn-send-message">Send Message →</button>
+                    </form>
+                    <div class="form-success" id="form-success">
+                        <div class="success-icon">✓</div>
+                        <h4>Message Sent!</h4>
+                        <p>Thanks for reaching out. We'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-divider"></div>
+            <div class="footer-inner">
+                <div class="footer-col footer-brand">
+                    <div class="footer-logo">App<span class="footer-logo-dot">Mint</span></div>
+                    <p class="footer-tagline">Robotics &amp; AI-driven technology building intelligent drone systems,
+                        IoT solutions, and autonomous software platforms.</p>
+                    <div class="footer-address">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Govindpuri, Delhi, India</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 7-10 7L2 7" />
+                            </svg>
+                            <a href="mailto:hello@appmint.dev">hello@appmint.dev</a>
+                        </li>
+                        <li>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.14 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.05 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z" />
+                            </svg>
+                            <a href="tel:+919876543210">+91 98765 43210</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Availability</h4>
+                    <div class="footer-avail-badge"><span class="badge-dot"></span> Open to Projects</div>
+                    <p class="footer-avail-text">Currently accepting drone development, AI vision, IoT automation, and
+                        enterprise software projects.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 AppMint Technologies. All rights reserved.</span>
+                <span class="footer-bottom-right">Built with ♥ in Delhi</span>
+            </div>
+        </footer>
+    </section>
+
+    <!-- ===== PROJECT MODAL ===== -->
+    <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal" id="modal">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
+            <div class="modal-image-container">
+                <div class="modal-img" id="modal-img"></div>
+                <div class="modal-img-overlay">
+                    <div class="modal-tag-row">
+                        <span class="modal-category" id="modal-category"></span>
+                        <span class="modal-year" id="modal-year"></span>
+                    </div>
+                    <h2 class="modal-title" id="modal-title"></h2>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-tags" id="modal-tags"></div>
+                <p class="modal-description" id="modal-description"></p>
+                <div class="modal-psr">
+                    <div class="psr-card problem">
+                        <div class="psr-label">CHALLENGE</div>
+                        <p id="modal-problem"></p>
+                    </div>
+                    <div class="psr-card solution">
+                        <div class="psr-label">SOLUTION</div>
+                        <p id="modal-solution"></p>
+                    </div>
+                    <div class="psr-card result">
+                        <div class="psr-label">OUTCOME</div>
+                        <p id="modal-result"></p>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <a href="#contact" class="btn btn-primary" id="modal-inquire" onclick="closeModal()">→ Inquire About
+                        This</a>
+                    <a href="#" class="btn btn-secondary" id="modal-view-code">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                        </svg>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
